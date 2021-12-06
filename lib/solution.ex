@@ -1,6 +1,6 @@
 defmodule Solution do
-  @callback solve_part_1(binary) :: any
-  @callback solve_part_2(binary) :: any
+  @callback solve_part_1(input :: binary) :: any
+  @callback solve_part_2(input :: binary) :: any
 
   @doc """
   Solve a puzzle for a given `day` and `part`.
